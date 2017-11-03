@@ -1,5 +1,6 @@
 \documentclass{exam}
-
+\let\oldpart\part
+\renewcommand{\part}[1][]{\oldpart[#1]{}}
 \begin{document}
 \begin{questions}
 $body$
